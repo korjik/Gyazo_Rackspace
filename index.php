@@ -38,9 +38,6 @@ function curl_get_result($url) {
 
 if(isset($_FILES['imagedata']['name'])) {
 	$name = substr(md5(time()), -28).'.'.$company_name.'.png';
-        $imageu = $uri.$name;
-        $etag = md5 ($_FILES['imagedata']['name']);
-        $size = $_FILES['imagedata']['size'];
 //Store it on Rackspace
 	if ($tempname = $_FILES['imagedata']['tmp_name']){
 	    $auth = new CF_Authentication($username, $key);

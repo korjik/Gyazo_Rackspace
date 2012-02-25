@@ -1,12 +1,10 @@
-=========================================================================================
+==========================================================================================
 Gyazo-Rackspace is a php script that stores screenshots at the rackspace storage account.
 
 It uses Rackspace 3 libs "Cloud Files API" stored in /files folder. 
 
 Also it has a great feature to shorten URL throgh bitly.
+==========================================================================================
 
-=========================================================================================
-
-Andrey Kozhokau
+Andrey Kozhokaru
 andrey@kozhokaru.com
-
