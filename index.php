@@ -7,7 +7,7 @@ $bitly_name='##Bitly_name';
 $bitly_key='##Bitly_key';
 
 
-$gyazo_url = $_SERVER['SERVER_NAME']; 
+$gyazo_url = 'http://'.$_SERVER['SERVER_NAME']; 
 $company_name='my_company';
 
 //Rackspace Credentials
